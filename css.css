@@ -1,0 +1,48 @@
+.box {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_content {
+    background: #574c4c;
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.534) 0 0 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    transition: cubic-bezier(0.86, 0, 0.07, 1) 0.4s;
+
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
+input{
+    transition: cubic-bezier(0.86, 0, 0.07, 1) 0.8s;
+}
+.pol {
+ 
+    outline: none;
+    border: none;
+    background: none;
+    border-bottom: white solid 2px;
+    width: 80%;
+    margin: 0 10%;
+    font-size: 30px;
+    color: white;
+}
+.btns
+{
+position: absolute;
+top: 90vh;
+display: flex;
+flex-direction: column;
+}
