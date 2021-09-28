@@ -21,12 +21,12 @@ const btn = document.querySelector('#btn');
 const ia = document.querySelectorAll('#ia');
 cl(ia)
 const tn = document.querySelector('#tn')
-x.addEventListener('click', (e) => {
-    box.style.width = e.target.value + 'px';
+x.addEventListener('input', (e) => {
+    box.style.width = e.target.value + '%';
     cl(e.target.value)
 })
-y.addEventListener('click', (e) => {
-    box.style.height = e.target.value + 'px';
+y.addEventListener('input', (e) => {
+    box.style.height = e.target.value + '%';
     cl(e.target.value)
 })
 col.addEventListener('input', (e) => {

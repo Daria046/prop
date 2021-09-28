@@ -45,4 +45,5 @@ position: absolute;
 top: 90vh;
 display: flex;
 flex-direction: column;
+margin-top: 70px;
 }
